@@ -9,9 +9,9 @@ terraform {
 
     backend "azurerm" {
     resource_group_name  = "rg-terraform-state"  
-    storage_account_name = "joaolacerda-terraform"                     
+    storage_account_name = "joaolacerdaterraform"                     
     container_name       = "container-terraform"               
-    key                  = "prod.terraform.tfstate"       
+    key                  = "azure-vnet/terraform.tfstate"       
   }
 }
 
