@@ -9,7 +9,7 @@ terraform {
 
     backend "azurerm" {
     resource_group_name  = "rg-terraform-state"  
-    storage_account_name = "joaoterraform"                     
+    storage_account_name = "joaolacerdaterraform96"                     
     container_name       = "container-terraform"               
     key                  = "azure-vnet/terraform.tfstate"       
   }
