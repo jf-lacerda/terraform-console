@@ -11,7 +11,7 @@ terraform {
     resource_group_name  = "rg-terraform-state"
     storage_account_name = "joaoterraformstate96"
     container_name       = "remote-state"
-    key                  = "azure-vnet/terraform.tfstate"
+    key                  = "terraform-console/terraform.tfstate"
   }
 }
 
